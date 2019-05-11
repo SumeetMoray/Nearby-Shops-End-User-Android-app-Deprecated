@@ -27,7 +27,7 @@ import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.MarketReviewService;
+import org.nearbyshops.enduserappnew.API_SDS.MarketReviewService;
 import org.nearbyshops.enduserappnew.Interfaces.NotifyReviewUpdate;
 
 import java.text.SimpleDateFormat;

@@ -20,7 +20,7 @@ import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 import org.nearbyshops.enduserappnew.Model.Item;
 import org.nearbyshops.enduserappnew.ModelEndPoints.ItemEndPoint;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemService;
+import org.nearbyshops.enduserappnew.API.ItemService;
 import org.nearbyshops.enduserappnew.Interfaces.NotifySearch;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifySort;

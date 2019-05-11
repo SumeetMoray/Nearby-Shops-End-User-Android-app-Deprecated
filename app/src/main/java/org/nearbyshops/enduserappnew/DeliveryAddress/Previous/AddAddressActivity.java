@@ -14,7 +14,7 @@ import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 //import org.nearbyshops.enduserappnew.DeliveryAddress.PickLocationActivity;
 import org.nearbyshops.enduserappnew.ModelStats.DeliveryAddress;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.DeliveryAddressService;
+import org.nearbyshops.enduserappnew.API.DeliveryAddressService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 
 import javax.inject.Inject;

@@ -8,7 +8,7 @@ import android.util.Log;
 
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.UserService;
 
 import javax.inject.Inject;
 

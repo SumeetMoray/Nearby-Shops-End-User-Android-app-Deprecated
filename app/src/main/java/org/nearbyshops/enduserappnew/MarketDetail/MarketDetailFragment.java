@@ -44,8 +44,8 @@ import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.FavouriteMarketService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.MarketReviewService;
+import org.nearbyshops.enduserappnew.API_SDS.FavouriteMarketService;
+import org.nearbyshops.enduserappnew.API_SDS.MarketReviewService;
 import org.nearbyshops.enduserappnew.Interfaces.NotifyReviewUpdate;
 
 

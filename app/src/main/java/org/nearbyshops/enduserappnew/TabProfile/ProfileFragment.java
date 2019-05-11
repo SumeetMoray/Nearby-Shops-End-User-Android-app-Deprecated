@@ -28,16 +28,13 @@ import com.squareup.picasso.Picasso;
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 import org.nearbyshops.enduserappnew.EditProfile.EditProfile;
 import org.nearbyshops.enduserappnew.EditProfile.FragmentEditProfile;
-import org.nearbyshops.enduserappnew.Interfaces.ShowFragment;
 import org.nearbyshops.enduserappnew.Login.NotifyAboutLogin;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.UserService;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
-
-import java.util.Objects;
 
 import javax.inject.Inject;
 

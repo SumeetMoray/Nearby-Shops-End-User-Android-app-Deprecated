@@ -2,8 +2,6 @@ package org.nearbyshops.enduserappnew.ShopItemByShop.ShopItems;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -18,8 +16,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.squareup.picasso.Picasso;
-
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 import org.nearbyshops.enduserappnew.Login.Login;
 import org.nearbyshops.enduserappnew.ModelCartOrder.CartItem;
@@ -28,10 +24,9 @@ import org.nearbyshops.enduserappnew.Model.Shop;
 import org.nearbyshops.enduserappnew.Model.ShopItem;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.ModelStats.CartStats;
-import org.nearbyshops.enduserappnew.MyApplication;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartStatsService;
+import org.nearbyshops.enduserappnew.API.CartItemService;
+import org.nearbyshops.enduserappnew.API.CartStatsService;
 import org.nearbyshops.enduserappnew.Utility.InputFilterMinMax;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
@@ -50,8 +45,6 @@ import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-import static com.mapbox.mapboxsdk.Mapbox.getApplicationContext;
 
 /**
  * Created by sumeet on 25/5/16.

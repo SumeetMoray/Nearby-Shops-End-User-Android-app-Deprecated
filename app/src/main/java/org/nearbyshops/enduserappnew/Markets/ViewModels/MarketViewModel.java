@@ -17,7 +17,7 @@ import org.nearbyshops.enduserappnew.MyApplication;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.ServiceConfigService;
+import org.nearbyshops.enduserappnew.API_SDS.ServiceConfigService;
 
 import java.util.ArrayList;
 import java.util.List;

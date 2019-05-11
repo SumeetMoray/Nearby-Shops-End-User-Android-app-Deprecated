@@ -25,8 +25,8 @@ import org.nearbyshops.enduserappnew.ModelCartOrder.CartItem;
 import org.nearbyshops.enduserappnew.Model.Item;
 import org.nearbyshops.enduserappnew.ModelStats.CartStats;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartStatsService;
+import org.nearbyshops.enduserappnew.API.CartItemService;
+import org.nearbyshops.enduserappnew.API.CartStatsService;
 import org.nearbyshops.enduserappnew.Utility.InputFilterMinMax;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 

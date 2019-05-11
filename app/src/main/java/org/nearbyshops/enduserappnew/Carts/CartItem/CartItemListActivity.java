@@ -10,7 +10,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,8 +24,8 @@ import org.nearbyshops.enduserappnew.ModelStats.CartStats;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartStatsService;
+import org.nearbyshops.enduserappnew.API.CartItemService;
+import org.nearbyshops.enduserappnew.API.CartStatsService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 
 import java.util.ArrayList;

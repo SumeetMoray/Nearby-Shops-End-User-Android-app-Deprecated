@@ -60,7 +60,7 @@ public class PrefGeneral {
 //        SharedPreferences sharedPref = context.getSharedPreferences(context.getString(R.string.preference_file_name), MODE_PRIVATE);
 //        return sharedPref.getBoolean(TAG_MULTI_MARKET_MODE, true);
 
-        return true;
+        return false;
     }
 
 
@@ -77,6 +77,7 @@ public class PrefGeneral {
 
 
 
+
     public static String getServiceURL(Context context) {
 
         context = MyApplication.getAppContext();
@@ -85,7 +86,7 @@ public class PrefGeneral {
 
         //service_url = "http://localareademo-env.ap-southeast-1.elasticbeanstalk.com";
 
-        return sharedPref.getString(context.getString(R.string.preference_service_url_key), null);
+        return sharedPref.getString(context.getString(R.string.preference_service_url_key), SERVICE_URL_NEARBYSHOPS);
     }
 
 

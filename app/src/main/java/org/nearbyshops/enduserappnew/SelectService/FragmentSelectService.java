@@ -25,7 +25,7 @@ import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ServiceConfigurationService;
+import org.nearbyshops.enduserappnew.API.ServiceConfigurationService;
 import org.nearbyshops.enduserappnew.Markets.DeprecatedCode.SlidingLayerSort.ServicesActivity;
 
 import java.util.Currency;

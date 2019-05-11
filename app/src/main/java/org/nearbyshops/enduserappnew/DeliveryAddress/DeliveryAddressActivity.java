@@ -24,7 +24,7 @@ import org.nearbyshops.enduserappnew.Login.Login;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.ModelStats.DeliveryAddress;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.DeliveryAddressService;
+import org.nearbyshops.enduserappnew.API.DeliveryAddressService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 
 import java.util.ArrayList;

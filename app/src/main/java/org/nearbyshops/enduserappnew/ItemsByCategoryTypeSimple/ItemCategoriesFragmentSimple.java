@@ -15,7 +15,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -55,10 +54,9 @@ import org.nearbyshops.enduserappnew.MyApplication;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemCategoryService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemService;
+import org.nearbyshops.enduserappnew.API.ItemCategoryService;
+import org.nearbyshops.enduserappnew.API.ItemService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
-import org.nearbyshops.enduserappnew.Markets.MarketsFragment;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifySort;
 import org.nearbyshops.enduserappnew.Items.SlidingLayerSort.UtilitySortItemsByCategory;
 
@@ -73,7 +71,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static org.nearbyshops.enduserappnew.Home.TAG_MARKET_FRAGMENT;
 import static org.nearbyshops.enduserappnew.ItemsByCategoryTypeSimple.ItemCategoriesSimple.TAG_SLIDING;
 
 /**

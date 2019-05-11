@@ -1,7 +1,6 @@
 package org.nearbyshops.enduserappnew.ShopItemByItemNew.ShopItemFragment;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v7.widget.RecyclerView;
@@ -20,7 +19,6 @@ import android.widget.Toast;
 import com.squareup.picasso.Picasso;
 
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
-import org.nearbyshops.enduserappnew.Login.Login;
 import org.nearbyshops.enduserappnew.Model.Item;
 import org.nearbyshops.enduserappnew.Model.Shop;
 import org.nearbyshops.enduserappnew.Model.ShopItem;
@@ -30,8 +28,8 @@ import org.nearbyshops.enduserappnew.ModelStats.CartStats;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartStatsService;
+import org.nearbyshops.enduserappnew.API.CartItemService;
+import org.nearbyshops.enduserappnew.API.CartStatsService;
 import org.nearbyshops.enduserappnew.Utility.InputFilterMinMax;
 
 import java.util.HashMap;

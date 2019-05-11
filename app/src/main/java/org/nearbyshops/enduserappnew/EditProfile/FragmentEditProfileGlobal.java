@@ -45,8 +45,8 @@ import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.UserServiceGlobal;
+import org.nearbyshops.enduserappnew.API.UserService;
+import org.nearbyshops.enduserappnew.API_SDS.UserServiceGlobal;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -59,7 +59,6 @@ import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.OnTextChanged;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;

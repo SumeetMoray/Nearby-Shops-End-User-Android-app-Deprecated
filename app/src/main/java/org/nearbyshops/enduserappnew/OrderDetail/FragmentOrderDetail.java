@@ -23,11 +23,10 @@ import org.nearbyshops.enduserappnew.ModelCartOrder.Endpoints.OrderItemEndPoint;
 import org.nearbyshops.enduserappnew.ModelCartOrder.Order;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.OrderItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopService;
+import org.nearbyshops.enduserappnew.API.OrderItemService;
+import org.nearbyshops.enduserappnew.API.ShopService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
-import org.nearbyshops.enduserappnew.Preferences.PrefShopHome;
 
 import java.util.ArrayList;
 import java.util.List;

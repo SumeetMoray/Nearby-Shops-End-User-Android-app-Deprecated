@@ -24,9 +24,9 @@ import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.UserService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.UserServiceGlobal;
+import org.nearbyshops.enduserappnew.API_SDS.UserServiceGlobal;
 
 import javax.inject.Inject;
 

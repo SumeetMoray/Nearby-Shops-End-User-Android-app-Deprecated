@@ -24,10 +24,10 @@ import org.nearbyshops.enduserappnew.ItemDetail.NotifyReviewUpdate;
 import org.nearbyshops.enduserappnew.ModelReviewItem.ItemReview;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemReviewService;
+import org.nearbyshops.enduserappnew.API.ItemReviewService;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.UserService;
 
 import java.text.SimpleDateFormat;
 

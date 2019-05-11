@@ -19,7 +19,7 @@ import org.nearbyshops.enduserappnew.Model.Shop;
 import org.nearbyshops.enduserappnew.Model.ShopItem;
 import org.nearbyshops.enduserappnew.ModelEndPoints.ShopItemEndPoint;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopItemService;
+import org.nearbyshops.enduserappnew.API.ShopItemService;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyCategoryChanged;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyGeneral;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifySort;

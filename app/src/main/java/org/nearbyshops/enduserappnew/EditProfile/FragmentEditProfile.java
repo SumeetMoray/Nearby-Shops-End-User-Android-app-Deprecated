@@ -40,7 +40,7 @@ import org.nearbyshops.enduserappnew.EditProfile.Interfaces.NotifyChangePassword
 import org.nearbyshops.enduserappnew.Model.Image;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.UserService;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 

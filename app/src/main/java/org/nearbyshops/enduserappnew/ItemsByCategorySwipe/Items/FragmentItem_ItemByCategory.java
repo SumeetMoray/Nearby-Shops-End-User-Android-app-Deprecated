@@ -19,12 +19,11 @@ import org.nearbyshops.enduserappnew.Model.ItemCategory;
 import org.nearbyshops.enduserappnew.ModelEndPoints.ItemEndPoint;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemService;
+import org.nearbyshops.enduserappnew.API.ItemService;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyCategoryChanged;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyGeneral;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifySort;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyTitleChanged;
-import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Items.SlidingLayerSort.UtilitySortItemsByCategory;
 
 import java.util.ArrayList;

@@ -35,7 +35,7 @@ import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.ServiceConfigService;
+import org.nearbyshops.enduserappnew.API_SDS.ServiceConfigService;
 import org.nearbyshops.enduserappnew.Markets.Interfaces.listItemMarketNotifications;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifySort;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyTitleChanged;

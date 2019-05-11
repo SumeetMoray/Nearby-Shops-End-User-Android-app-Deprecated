@@ -23,15 +23,13 @@ import com.google.i18n.phonenumbers.Phonenumber;
 import com.hbb20.CountryCodePicker;
 
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
-import org.nearbyshops.enduserappnew.EditProfile.EditProfile;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.MyApplication;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContractSDS.UserServiceGlobal;
-import org.nearbyshops.enduserappnew.SignUp.PrefSignUp.PrefrenceSignUp;
+import org.nearbyshops.enduserappnew.API.UserService;
+import org.nearbyshops.enduserappnew.API_SDS.UserServiceGlobal;
 
 import javax.inject.Inject;
 

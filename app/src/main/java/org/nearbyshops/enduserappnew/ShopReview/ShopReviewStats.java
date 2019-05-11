@@ -14,7 +14,7 @@ import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 import org.nearbyshops.enduserappnew.Model.Shop;
 import org.nearbyshops.enduserappnew.ModelReviewShop.ShopReviewStatRow;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopReviewService;
+import org.nearbyshops.enduserappnew.API.ShopReviewService;
 
 import java.util.List;
 

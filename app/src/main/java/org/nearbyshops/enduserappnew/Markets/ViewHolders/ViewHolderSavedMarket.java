@@ -25,8 +25,8 @@ import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.Preferences.PrefLoginGlobal;
 import org.nearbyshops.enduserappnew.Preferences.PrefServiceConfig;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.LoginUsingOTPService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ServiceConfigurationService;
+import org.nearbyshops.enduserappnew.API.LoginUsingOTPService;
+import org.nearbyshops.enduserappnew.API.ServiceConfigurationService;
 import org.nearbyshops.enduserappnew.Markets.Interfaces.listItemMarketNotifications;
 
 import java.util.Currency;

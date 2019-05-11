@@ -37,7 +37,7 @@ import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.Preferences.PrefShopHome;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopItemService;
+import org.nearbyshops.enduserappnew.API.ShopItemService;
 import org.nearbyshops.enduserappnew.ShopHome.ShopHome;
 import org.nearbyshops.enduserappnew.ShopItemByItemNew.SlidingLayerSort.PrefSortShopItems;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifySort;

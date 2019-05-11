@@ -43,10 +43,10 @@ import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.FavouriteItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemImageService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemReviewService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemSpecNameService;
+import org.nearbyshops.enduserappnew.API.FavouriteItemService;
+import org.nearbyshops.enduserappnew.API.ItemImageService;
+import org.nearbyshops.enduserappnew.API.ItemReviewService;
+import org.nearbyshops.enduserappnew.API.ItemSpecNameService;
 
 import java.util.ArrayList;
 import java.util.List;

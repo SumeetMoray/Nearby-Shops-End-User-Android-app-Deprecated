@@ -33,7 +33,7 @@ import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.ModelStats.ItemStats;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopItemService;
+import org.nearbyshops.enduserappnew.API.ShopItemService;
 import org.nearbyshops.enduserappnew.ShopHome.ShopHome;
 import org.nearbyshops.enduserappnew.ShopItemByItem.Interfaces.NotifyFillCartsChanged;
 import org.nearbyshops.enduserappnew.ShopItemByItem.Interfaces.NotifyNewCartsChanged;

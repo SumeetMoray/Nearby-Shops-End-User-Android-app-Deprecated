@@ -19,14 +19,13 @@ import android.widget.Toast;
 
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
 import org.nearbyshops.enduserappnew.ImageSlider.ImageSlider;
-import org.nearbyshops.enduserappnew.Interfaces.OnTaxiFilterChanged;
+import org.nearbyshops.enduserappnew.Interfaces.OnFilterChanged;
 import org.nearbyshops.enduserappnew.Model.Endpoints.ItemImageEndPoint;
 import org.nearbyshops.enduserappnew.Model.ItemImage;
 import org.nearbyshops.enduserappnew.ModelUtility.HeaderTitle;
 import org.nearbyshops.enduserappnew.Preferences.UtilityFunctions;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemImageService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.ItemImageService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +43,7 @@ import retrofit2.Response;
  */
 
 public class ItemImageListFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener,
-        Adapter.NotificationsFromAdapter ,OnTaxiFilterChanged {
+        Adapter.NotificationsFromAdapter , OnFilterChanged {
 
 
     boolean isDestroyed = false;

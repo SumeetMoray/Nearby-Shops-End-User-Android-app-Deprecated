@@ -17,11 +17,10 @@ import org.nearbyshops.enduserappnew.ModelItemSpecs.ItemSpecificationItem;
 import org.nearbyshops.enduserappnew.ModelItemSpecs.ItemSpecificationName;
 import org.nearbyshops.enduserappnew.ModelItemSpecs.ItemSpecificationValue;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemSpecItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemSpecNameService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemSpecValueService;
+import org.nearbyshops.enduserappnew.API.ItemSpecItemService;
+import org.nearbyshops.enduserappnew.API.ItemSpecNameService;
+import org.nearbyshops.enduserappnew.API.ItemSpecValueService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
-import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -32,7 +31,6 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

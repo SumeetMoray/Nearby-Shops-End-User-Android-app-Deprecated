@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -23,18 +22,13 @@ import org.nearbyshops.enduserappnew.MyApplication;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
-import org.nearbyshops.enduserappnew.SignUp.ForgotPassword.ForgotPassword;
-import org.nearbyshops.enduserappnew.SignUp.PrefSignUp.PrefrenceForgotPassword;
-import org.nearbyshops.enduserappnew.SignUp.PrefSignUp.PrefrenceSignUp;
-import org.nearbyshops.enduserappnew.SignUp.SignUp;
+import org.nearbyshops.enduserappnew.API.UserService;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.OnTextChanged;
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
 import retrofit2.Callback;

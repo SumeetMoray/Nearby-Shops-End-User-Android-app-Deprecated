@@ -46,10 +46,10 @@ import org.nearbyshops.enduserappnew.ModelReviewItem.ItemReview;
 import org.nearbyshops.enduserappnew.ModelReviewItem.ItemReviewEndPoint;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.FavouriteItemService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemImageService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemReviewService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ItemSpecNameService;
+import org.nearbyshops.enduserappnew.API.FavouriteItemService;
+import org.nearbyshops.enduserappnew.API.ItemImageService;
+import org.nearbyshops.enduserappnew.API.ItemReviewService;
+import org.nearbyshops.enduserappnew.API.ItemSpecNameService;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 
@@ -66,8 +66,6 @@ import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-import static com.mapbox.mapboxsdk.Mapbox.getApplicationContext;
 
 
 public class ItemDetail_ extends AppCompatActivity implements

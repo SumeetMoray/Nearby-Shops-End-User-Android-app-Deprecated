@@ -21,7 +21,7 @@ import org.nearbyshops.enduserappnew.ModelReviewShop.ShopReview;
 import org.nearbyshops.enduserappnew.ModelReviewShop.ShopReviewThanks;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopReviewThanksService;
+import org.nearbyshops.enduserappnew.API.ShopReviewThanksService;
 import org.nearbyshops.enduserappnew.ShopReview.Interfaces.NotifyLoginByAdapter;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;

@@ -19,7 +19,7 @@ import org.nearbyshops.enduserappnew.ModelCartOrder.Endpoints.OrderEndPoint;
 import org.nearbyshops.enduserappnew.ModelCartOrder.Order;
 import org.nearbyshops.enduserappnew.ModelStatusCodes.OldStatusCodes.OrderStatusHomeDeliveryOld;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.OrderService;
+import org.nearbyshops.enduserappnew.API.OrderService;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyTitleChanged;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.Preferences.PrefShopHome;

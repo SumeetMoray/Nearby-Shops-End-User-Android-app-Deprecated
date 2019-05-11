@@ -21,7 +21,7 @@ import org.nearbyshops.enduserappnew.Model.ItemCategory;
 import org.nearbyshops.enduserappnew.Model.Shop;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.ShopService;
+import org.nearbyshops.enduserappnew.API.ShopService;
 import org.nearbyshops.enduserappnew.ShopsByCategory.Interfaces.NotifyTitleChanged;
 import org.nearbyshops.enduserappnew.Utility.DividerItemDecoration;
 

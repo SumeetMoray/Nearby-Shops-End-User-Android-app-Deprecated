@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
@@ -23,8 +22,7 @@ import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.ModelStats.CartStats;
 import org.nearbyshops.enduserappnew.Preferences.PrefLocation;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.CartStatsService;
-import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
+import org.nearbyshops.enduserappnew.API.CartStatsService;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 
 import java.util.ArrayList;

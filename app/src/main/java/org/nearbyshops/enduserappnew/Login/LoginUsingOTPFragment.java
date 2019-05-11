@@ -11,20 +11,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
 
 import org.nearbyshops.enduserappnew.DaggerComponentBuilder;
-import org.nearbyshops.enduserappnew.LoginUsingOTP.LoginUsingOTP;
 import org.nearbyshops.enduserappnew.ModelRoles.User;
 import org.nearbyshops.enduserappnew.MyApplication;
 import org.nearbyshops.enduserappnew.Preferences.PrefGeneral;
 import org.nearbyshops.enduserappnew.Preferences.PrefLogin;
 import org.nearbyshops.enduserappnew.R;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.LoginUsingOTPService;
-import org.nearbyshops.enduserappnew.RetrofitRESTContract.UserService;
+import org.nearbyshops.enduserappnew.API.LoginUsingOTPService;
 
 import javax.inject.Inject;
 
@@ -38,8 +35,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
-import static java.lang.Boolean.TRUE;
 
 /**
  * Created by sumeet on 19/4/17.
