@@ -95,7 +95,7 @@
         <activity
             android:name=".Login.Login"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="adjustPan" />
+            android:windowSoftInputMode="adjustResize" />
 
 
         <activity
@@ -262,6 +262,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.nearbyshops.enduserappnew.Home" />
         </activity>
+
+
         <activity
             android:name=".ShopDetail.ShopDetail"
             android:label="@string/label_items_by_category"
@@ -271,6 +273,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.nearbyshops.enduserappnew.Home" />
         </activity>
+
+
         <activity
             android:name=".ItemDetail.ItemDetail"
             android:label="Item Detail"
@@ -280,6 +284,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.nearbyshops.enduserappnew.Home" />
         </activity>
+
+
         <activity
             android:name=".ShopReview.ShopReviews"
             android:label="Shop Reviews"
